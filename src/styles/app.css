@@ -288,7 +288,75 @@ footer ul {
     width: 100%;
     height: 100%;
 }
+.side-nav {
+    display: none;
+}
+.side-nav{
+    position: fixed;
+    right: -100%;
+    top: 0;
+    background-color: #99783a;
+    width: 70vw;
+    padding: 30px 15px;
+    height: auto;
+    z-index: 9999;
+    border-bottom-left-radius: 10px;
+    border-left: 1px solid #99783a;
+    border-bottom: 1px solid #99783a;
+}
+.side-nav .start-btn{
+    max-width: 120px;
+    text-align: center;
+}
+.side-nav ul{
+    list-style: none;
+}
+.side-nav ul li {
+    margin: 20px 0;
+    color: #D9D9D9;;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.side-nav ul li:hover{
+    color: #fff;
+}
+.side-nav ul  .start-btn{
+    color: #040119;
+    transition: 0.3s ease-in-out;
+}
+.side-nav ul .start-btn:hover{
+    background-color: #ffd891;
+    color: #040119;
 
+}
+.diamond {
+    width: 15px;
+    height: 15px;
+    background-color: #ffd891;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.menuicon{
+    position: fixed;
+    right: 10%;
+    background-color: #fff;
+    color: #bb9245;
+    padding: 12px 16px;
+    z-index: 1000;
+    border: 1px solid #ffd891;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.menuicon:active{
+    transform: scale(0.8);
+}
 
 
 
@@ -394,6 +462,31 @@ footer ul {
     .trademark{
         font-size: 1rem;
     }
+    .text{
+        margin-bottom: 20%;
+    }
+    .side-nav {
+        display: block;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
