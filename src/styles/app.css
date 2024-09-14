@@ -173,6 +173,7 @@ button:active, .start-btn:active{
     width: 100%;
     display: flex;
     gap: 30px;
+    margin-top: 7%;
 }
 .develop-btn{
     background: #fff;
@@ -347,7 +348,6 @@ footer ul {
 
 .close-btn {
     background-color: #fff;
-    color: #99783a;
     padding: 12px 16px;
     cursor: pointer;
     font-size: 1rem;
@@ -358,10 +358,12 @@ footer ul {
     position: absolute;
     top: 6px;
     right: 20px;
+    transition: 0.3s ease-in-out;
 }
 
-.close-btn:hover {
+.close-btn:active {
     background-color: #ffd891;
+    transform: scale(0.9);
 }
 
 .diamond {
@@ -493,7 +495,8 @@ footer ul {
         font-size: 1rem;
     }
     .text{
-        margin-bottom: 20%;
+        margin-top: 10%;
+        margin-bottom: 40%;
     }
     .side-nav {
         display: block;
@@ -501,7 +504,82 @@ footer ul {
     .menuicon{
         display: block;
     }
+  
+.overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 9998; 
+  }
+  
 
+  .overlay.show {
+    display: block;
+  }
+  
+
+.side-nav {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    background-color: #99783a;
+    width: 70vw;
+    padding: 30px 15px;
+    height: 100%;
+    z-index: 99999;
+    border-bottom-left-radius: 10px;
+    border-left: 1px solid #99783a;
+    border-bottom: 1px solid #99783a;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  .side-nav.show {
+    right: 0;
+  }
+  
+  .side-nav .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .side-nav ul {
+    list-style: none;
+  }
+  
+  .side-nav ul li {
+    margin: 20px 0;
+    color: #D9D9D9;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .side-nav ul li:hover {
+    color: #fff;
+  }
+  
+  .side-nav ul .start-btn {
+    color: #040119;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .side-nav ul .start-btn:hover {
+    background-color: #ffd891;
+    color: #040119;
+  }
+  
 
 
 

@@ -14,7 +14,7 @@ import React from 'react'
                         <li><a href="#">Discord</a></li>
                         <li><a href="#">Telegram</a></li>
                         <li><a href="#">Whatsapp</a></li>
-                        <li><a href="#">Twitter</a></li>
+                        <li><a href="https://x.com/SuidenUNN" target="_blank" rel="noopener noreferrer">Twitter</a></li>
                     </ul>
 
                     <ul>
