@@ -27,7 +27,7 @@ import React from 'react'
                     </ul>
 
                     <ul>
-                        <li><h3>About</h3></li>
+                        <li><h3>ABOUT</h3></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Trademark policy</a></li>
