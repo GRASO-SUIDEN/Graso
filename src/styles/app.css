@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #bb9245;
+    box-sizing: border-box;
+    font-family: "Aoboshi One", system-ui;
+  }
+  .main-container{
+    position: relative;
+    height: auto;
+  }
+  #root{
+    padding: 0px 0;
+  }
+header{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding: 0px 10px;
+    z-index: 9999
+}
+.nav-holder {
+    width: 90%;
+    max-width: 1200px;
+    min-height:70px;
+    height: 70px;
+    padding: 2px;
+    background: linear-gradient(90deg, #FFFFFF 5.26%, #3A24C2 44.91%, #FFFFFF 96.63%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 100% 7%, 100% 93%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    box-shadow:  0px 8px 30px -3px rgba(0, 0, 0, 0.5); 
+}
+
+.inner-nav {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: linear-gradient(to right, rgba(185, 146, 69, 0.8), rgba(192, 163, 104, 0.8));
+    border-radius: 7px;
+    box-sizing: border-box; 
+    color: #fff;
+    clip-path: polygon(0 0, 100% 7%, 100% 93%, 0% 100%);
+}
+.logo{
+    font-size: 24px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    font-weight: 400;
+    align-items: center;
+    height:100%;
+    align-items: center;
+    margin-top: -4px;
+}
+nav ul li {
+    margin: 0px 10px;
+    font-family: Aoboshi One;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+nav ul li::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #040119;
+    bottom: -5px; ;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+    opacity: 50%
+}
+nav ul li:hover::after {
+    width: 100%;
+}
+.start-btn{
+    background-color: #fff;
+    color: #040119;
+    padding: 10px 10px;
+    font-size: 16px;
+    opacity: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+nav ul .start-btn:hover{
+    background-color: #040119;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+nav ul .start-btn:hover::after{
+    width: 0;
+}
+.features{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero{
+    width: 100%;
+    height: 122vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.text {
+    width: 80%; 
+    max-width: 886px; 
+    min-width: 300px;
+    color: #D9D9D9;
+    font-weight: 400;
+    padding: 10px;
+}
+.text h1{
+    font-size: 70px;
+    line-height: 101.36px;
+    margin: 5% 0 0 0; 
+    
+    
+}
+.text p{
+    line-height: 28.96px;
+    width: 90%; 
+    max-width: 703px; 
+    font-size: 20px;
+}
+.invest-btn, .develop-btn{
+    width: 145px;
+    height: 58px;
+    font-family: "Aoboshi One", system-ui;
+    cursor: pointer;
+    border-radius: 10px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #737373;
+    border-bottom: 1px solid #737373;
+    outline: none;
+    background: linear-gradient(to right, rgba(217, 217, 217, 0.39), rgba(115, 115, 115, 0.42));
+    color: #ffffff;
+    font-size: 20px;
+}
+button, .start-btn{
+    transition: transform 0.3s ease-in-out;
+}
+button:active, .start-btn:active{
+    transform: scale(0.8);
+}
+.button-holder{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.develop-btn{
+    background: #fff;
+    color: #bb9245;
+}
+.footer{
+    background: linear-gradient(to right, rgba(217, 217, 217, 0.29), #99783a);    
+    width: 100%;
+    padding: 10px 0 10px 0;
+    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0% 100%);
+}
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+}
+footer ul {
+    color: #ffffff;
+    opacity: 60%;
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 40%;
+    gap: 20px;
+}
+.info ul {
+    list-style: none;
+    font-weight: 400;
+}
+.info ul li {
+    text-align: left;
+}
+.brand{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+.info ul li a{
+    text-decoration: none;
+    color: #ffd891;
+    font-size: 14px;
+    margin: 15px 0;
+    transition: color 0.3s ease-in-out;
+}
+.info ul li h3{
+    font-size: 16px;
+    color:   #ffd891;
+    transition: color 0.3s ease-in-out;
+}
+.trademark{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+}
+.info ul li h3:hover, .info ul li a:hover{
+    color: #fff;
+}
+.sponge-box-image3{
+    left: 0;
+    top: 11px;
+    position: absolute;
+    max-width: 20vw; 
+    max-height: 20vh; 
+    min-width: 10vw;
+    min-height: 10vh;
+    z-index: -1;
+}
+.sponge-box-image4{
+    left: 36%;
+    top: 5%;
+    position: absolute;
+    max-width: 10vw;
+    max-height: 10vh;
+    z-index: 9999;
+}
+.sponge-box-image1{
+    right: 5%;
+    top: 15%;
+    position: absolute;
+    max-width: 30vw;
+    max-height: 30vh;
+    z-index: 9999;
+    z-index: -1;
+}
+.sponge-box-image5{
+    left: 29%;
+    bottom: 22%;
+    position: absolute;
+    max-width: 15vw;
+    max-height: 15vh;
+    z-index: 9999;
+    z-index: -10;
+}
+.features img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    header{
+        display: none;
+    }
+    nav ul {
+        display: none;
+    }
+    #root {
+        padding: 15px 0px;
+    }
+    .text h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .text p{
+        line-height: 28.96px;
+        width: 100%;
+        max-width: 703px; 
+        margin: 0 auto; 
+        font-size: 16px;
+        margin: 10px 0 10px 0;
+    }
+    .invest-btn, .develop-btn{
+        max-width: 145px;
+        min-width: 70px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .button-holder{
+        width: 90%;
+        display: flex;
+        gap: 30px;
+    }
+    footer{
+        padding-top: 50px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
