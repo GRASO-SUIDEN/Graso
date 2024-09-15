@@ -523,7 +523,7 @@ footer ul {
     padding: 30px 15px;
     height: 50vh;
     z-index: 99999;
-    border-bottom-left-radius: 70%;
+    border-bottom-left-radius: 10px;
     border-left: 1px solid #99783a;
     border-bottom: 1px solid #99783a;
     transition: right 0.3s ease-in-out;
