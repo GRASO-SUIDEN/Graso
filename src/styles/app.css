@@ -138,7 +138,8 @@ nav ul .start-btn:hover::after{
 .text h1{
     font-size:  4.375rem;
     line-height: 101.36px;
-    margin: 5% 0 0 0;   
+    margin: 5% 0 0 0;  
+    z-index: 999; 
 }
 .text p{
     line-height: 28.96px;
