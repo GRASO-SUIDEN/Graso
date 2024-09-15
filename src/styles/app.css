@@ -454,13 +454,14 @@ footer ul {
     .invest-btn, .develop-btn {
         width: 40%; 
         font-size: 1.1rem; 
-        max-width: 130px;
+        max-width: 100px;
     }
 
     .button-holder{
         width: 100%;
         display: flex;
         gap: 30px;
+        background-color: red;
     }
     footer{
         padding-top: 50px;
