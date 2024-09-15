@@ -148,9 +148,11 @@ nav ul .start-btn:hover::after{
     max-width: 703px; 
     font-size: 20px;
 }
-.invest-btn, .develop-btn{
-    width: 145px;
-    height: 58px;
+.invest-btn, .develop-btn {
+    width: 30%;
+    max-width: 145px; 
+    height: auto; 
+    padding: 0.8rem 1.2rem;
     font-family: "Aoboshi One", system-ui;
     cursor: pointer;
     border-radius: 10px;
@@ -161,7 +163,8 @@ nav ul .start-btn:hover::after{
     outline: none;
     background: linear-gradient(to right, rgba(217, 217, 217, 0.39), rgba(115, 115, 115, 0.42));
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.2rem; 
+    font-weight: 500;
 }
 button, .start-btn{
     transition: transform 0.3s ease-in-out;
@@ -345,27 +348,10 @@ footer ul {
     background-color: #ffd891;
     color: #040119;
 }
-
-.close-btn {
-    background-color: #fff;
-    padding: 12px 16px;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 20px;
-    transition:  0.3s ease;
-    border-radius: 10px;
-    border: 1px solid #ffd891;
-    position: absolute;
-    top: 6px;
-    right: 20px;
-    transition: 0.3s ease-in-out;
-}
-
 .close-btn:active {
     background-color: #ffd891;
     transform: scale(0.9);
 }
-
 .diamond {
     width: 15px;
     height: 15px;
@@ -374,21 +360,20 @@ footer ul {
 }
 .menuicon{
     position: fixed;
-    right: 10%;
+    right:0;
+    top: 0;
     background-color: #fff;
     color: #bb9245;
     padding: 12px 16px;
     z-index: 1000;
     border: 1px solid #ffd891;
-    border-radius: 10px;
+    border-bottom-left-radius: 50%;
     display: none;
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease-in-out;
 }
-.menuicon:active{
-    transform: scale(0.8);
-}
+
 
 
 
@@ -458,12 +443,11 @@ footer ul {
         font-size: 16px;
         margin: 10px 0 10px 0;
     }
-    .invest-btn, .develop-btn{
-        max-width: 145px;
-        min-width: 70px;
-        height: 40px;
-        font-size: 16px;
+    .invest-btn, .develop-btn {
+        width: 40%; 
+        font-size: 1.1rem; 
     }
+
     .button-holder{
         width: 90%;
         display: flex;
@@ -529,7 +513,7 @@ footer ul {
     background-color: #99783a;
     width: 70vw;
     padding: 30px 15px;
-    height: 100%;
+    height: 50vh;
     z-index: 99999;
     border-bottom-left-radius: 10px;
     border-left: 1px solid #99783a;
@@ -543,13 +527,21 @@ footer ul {
   
   .side-nav .close-btn {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
+    top: 0;
+    right: 0;
+    font-size: 1rem;;
     cursor: pointer;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 12px 16px;
+    transition:  0.3s ease;
+    border-bottom-left-radius: 50%;
+    border: 1px solid #ffd891;
+    transition: 0.3s ease-in-out;
   }
-  
   .side-nav ul {
     list-style: none;
   }
@@ -606,6 +598,12 @@ footer ul {
 
 
 
+@media (max-width: 480px) {
+    .invest-btn, .develop-btn {
+        width: 60%; 
+        font-size: 1rem; 
+    }
+}
 
 
 
