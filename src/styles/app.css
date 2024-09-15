@@ -486,6 +486,7 @@ footer ul {
         font-size: 1rem;
     }
     .text{
+        margin-top: 10px;
         margin-bottom: 50%;
 
     }
@@ -545,7 +546,7 @@ footer ul {
     background-color: #fff;
     padding: 16px 18px;
     transition:  0.3s ease;
-    border-bottom-left-radius: 70%;
+    border-bottom-left-radius: 75%;
     border: 1px solid #ffd891;
     transition: 0.3s ease-in-out;
   }
