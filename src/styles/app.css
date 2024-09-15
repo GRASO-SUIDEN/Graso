@@ -136,11 +136,9 @@ nav ul .start-btn:hover::after{
     padding: 10px;
 }
 .text h1{
-    font-size: 70px;
+    font-size:  4.375rem;
     line-height: 101.36px;
-    margin: 5% 0 0 0; 
-    
-    
+    margin: 5% 0 0 0;   
 }
 .text p{
     line-height: 28.96px;
@@ -364,16 +362,25 @@ footer ul {
     top: 0;
     background-color: #fff;
     color: #bb9245;
-    padding: 12px 16px;
+    padding: 16px 18px;
     z-index: 1000;
     border: 1px solid #ffd891;
-    border-bottom-left-radius: 50%;
+    border-bottom-left-radius: 70%;
     display: none;
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease-in-out;
 }
-
+.mobile-logo{
+    display: none;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    z-index: 10000;
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 0 0 3px #040119;
+}
 
 
 
@@ -432,7 +439,7 @@ footer ul {
         padding: 15px 0px;
     }
     .text h1{
-        font-size: 35px;
+        font-size:  2.5rem;;
         line-height: 50px;
     }
     .text p{
@@ -440,7 +447,7 @@ footer ul {
         width: 100%;
         max-width: 703px; 
         margin: 0 auto; 
-        font-size: 16px;
+        font-size: 1.1rem;
         margin: 10px 0 10px 0;
     }
     .invest-btn, .develop-btn {
@@ -479,8 +486,8 @@ footer ul {
         font-size: 1rem;
     }
     .text{
-        margin-top: 10%;
         margin-bottom: 50%;
+
     }
     .side-nav {
         display: block;
@@ -515,7 +522,7 @@ footer ul {
     padding: 30px 15px;
     height: 50vh;
     z-index: 99999;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 70%;
     border-left: 1px solid #99783a;
     border-bottom: 1px solid #99783a;
     transition: right 0.3s ease-in-out;
@@ -529,16 +536,16 @@ footer ul {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 1rem;;
+    font-size: 1rem;
     cursor: pointer;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    padding: 12px 16px;
+    padding: 16px 18px;
     transition:  0.3s ease;
-    border-bottom-left-radius: 50%;
+    border-bottom-left-radius: 70%;
     border: 1px solid #ffd891;
     transition: 0.3s ease-in-out;
   }
@@ -571,7 +578,9 @@ footer ul {
     background-color: #ffd891;
     color: #040119;
   }
-  
+  .mobile-logo{
+    display: block;
+  }
 
 
 
