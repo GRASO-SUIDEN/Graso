@@ -14,8 +14,7 @@ const Banner = () => {
 
     <div className="banner">
         <Header/>
-        <SideNav/>
-
+        <SideNav />
         <div className='main-content'>
         <div className="text">
           <h1>Making Real Estate More Accessible to All</h1>

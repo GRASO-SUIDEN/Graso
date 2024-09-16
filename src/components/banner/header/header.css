@@ -95,3 +95,16 @@ nav ul .start-btn:hover::after{
     padding: 0px 10px;
     z-index: 9999
 }
+
+
+
+
+
+
+
+@media(max-width:1024px){
+        .header {
+            display: none;
+        }
+      
+}
