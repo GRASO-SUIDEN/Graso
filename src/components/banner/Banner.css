@@ -166,7 +166,7 @@ button:active, .start-btn:active{
 .invest-btn, .develop-btn {
     width: 70%; 
     font-size: 1.3rem;
-    min-width: 50%;
+    min-width: 40%;
     margin: 0 10px;
     min-height: 8vh;
 }
@@ -179,13 +179,19 @@ button:active, .start-btn:active{
 .sponge-box-image4{
     z-index: -1;
 }
-
-
-
-
 }
 
-
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .invest-btn, .develop-btn {
+        width: 50%;
+        max-width: 70%; 
+        font-size: 1.6rem;
+        min-width: 30%;
+        margin: 0 10px;
+        min-height: 4vh;
+    }
+  }
+  
 
 
 
