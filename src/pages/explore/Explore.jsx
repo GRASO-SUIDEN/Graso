@@ -17,11 +17,11 @@ function Explore() {
         </ul>
         <div className="ml-6 flex space-x-5">
           <ExploreCard />
-          <ExploreCard />
-          <ExploreCard />
+          {/* <ExploreCard />
+          <ExploreCard /> */}
         </div>
       </div>
-      <Footer />
+      {/* <Footer className="" /> */}
     </section>
   );
 }

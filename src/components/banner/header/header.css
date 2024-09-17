@@ -106,6 +106,7 @@ nav ul .start-btn:hover::after {
 }
 
 .inner-nav a.active {
+  text-decoration: none;
   color: #fdd993;
 }
 

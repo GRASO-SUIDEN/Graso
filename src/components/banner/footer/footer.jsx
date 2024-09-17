@@ -1,9 +1,9 @@
 import "./footer.css";
 
-const Footer = () => {
+const Footer = ({ className }) => {
   return (
     <footer>
-      <div className="main-footer">
+      <div className={`main-footer ${className}`}>
         <div className="brand">
           <div className="logo">
             <a href="#">GRASO</a>
