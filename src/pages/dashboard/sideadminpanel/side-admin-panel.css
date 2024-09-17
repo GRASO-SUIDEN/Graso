@@ -4,7 +4,6 @@
     height: 100vh;
     display: flex;
     gap: 15px;
-    font-family: "Inter Tight", sans-serif;
     flex-direction: column;
     justify-content: space-between;
     font-weight: 400;
@@ -34,6 +33,7 @@ align-items: center;
 display: flex;
 border-radius: 7px;
 transition: 0.3s ease-in-out;
+font-weight: 500;
 }
 .side-admin-container ul li:hover{
     background-color: #e8e8e8;

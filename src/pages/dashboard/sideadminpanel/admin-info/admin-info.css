@@ -49,9 +49,9 @@
     background: linear-gradient(to right, #99783a, rgba(217, 217, 217, 0.29));
     align-items: center;
     text-align: center;
-    padding: 13px 30px;
+    padding: 13px 15px;
     border-radius: 5px;
-    border: 1px solid #ffffff !important;
+    border: 1px solid #FFFFFF;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
     margin: 0 15px;
@@ -69,7 +69,7 @@
     font-family: "Inter Tight", sans-serif;
 }
 .name small{
-    font-size: 1.7vh;
+    font-size: 2.7vh;
     font-weight: 300;
     text-align: left;
     margin-top: 0;
@@ -85,7 +85,7 @@ padding: 10px;
 }
 .dropdown .dropdown-toggle {
     padding: 5px 20px; 
-    min-width: 18.75vw; 
+    min-width: 18.75vw;
     box-shadow: 0 0 3px #000;
   }
   .dropdown-menu {
@@ -137,14 +137,14 @@ padding: 10px;
     flex-wrap: wrap;
 }
 .balances li {
-    margin: 5px 15px;
+    margin: 5px 13px;
     font-family: "Inter Tight", sans-serif;
 }
 .stats .summary  li, .balances{
     list-style: none  !important;
 }
 .summary p, .balances p{
-    font-size: 1.375rem;
+    font-size: 1.15rem;
     font-weight: 500;
     text-align: left;
     margin-bottom: 0px;
@@ -161,8 +161,9 @@ padding: 10px;
 .btn-group .btn {
     background-color: #737373 ;
     border-color: #e8e8e8; 
-    padding: 5px 15px;    
+    padding: 10px 20px;    
     font-family: "Inter Tight", sans-serif;
+    border-radius: 15px;
   }
   
   .btn-group .btn:hover {
@@ -170,8 +171,8 @@ padding: 10px;
   }
   .btn-group .dropdown-menu{
     background-color: #99783a;
-    font-size: 0.625rem;
-    padding: 5px 13px;
+    font-size: 0.8rem;
+    padding: 6px 15px;
   }
   .hidebalance{
     align-self: center;
@@ -384,7 +385,7 @@ padding: 10px;
     width: 100%;
     padding: 30px 40px;
     background: linear-gradient(68.01deg, rgba(253, 217, 147, 0.58) 34.64%, rgba(254, 237, 204, 0.58) 96.13%);
-    min-height: 40.11vh;
+    min-height: 30vh;
     border-radius: 10px;
     border: 1px ;
     opacity: 0px;
@@ -476,4 +477,7 @@ padding: 10px;
     .admin-info {
         width: 70%;
     }
+    .admin-header h3{
+        font-size: 2rem;
+     }
 }
