@@ -1,14 +1,16 @@
-import React from 'react';
-import './header.css'
+import { NavLink } from "react-router-dom";
+import "./header.css";
 
 const Header = () => {
   return (
     <div className="header">
-        <nav className='nav-holder'>
-        <nav className='inner-nav'>
+      <nav className="nav-holder">
+        <nav className="inner-nav">
           <div className="logo">GRASO</div>
           <ul>
-            <li>Explore</li>
+            <li>
+              <NavLink to="/explore">Explore</NavLink>
+            </li>
             <li>Dashboard</li>
             <li>Features</li>
             <li>Whitepaper</li>
@@ -17,7 +19,6 @@ const Header = () => {
           </ul>
         </nav>
       </nav>
-
     </div>
   );
 };
