@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,10 +10,11 @@
   box-sizing: border-box;
   font-family: "Aoboshi One", system-ui;
 }
-
-body {
+#root{
   background-color: #bb9245;
   width: 100%;
   height: auto;
   min-height: 100vh;
 }
+
+

@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo-text {
+    font-size: 3rem; 
+    font-weight: bold;
+    color: #fff; 
+    opacity: 80%;
+    text-shadow: 0 0 3px #000;
+  }
+  
