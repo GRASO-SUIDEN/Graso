@@ -1,7 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // Import Bootstrap JS
+import 'bootstrap/dist/css/bootstrap.min.css';  
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  
 import './sidenav.css'
+import { Link } from 'react-router-dom'
 
 const SideNav = () => {
   return (
@@ -11,8 +12,12 @@ const SideNav = () => {
         <div className="gradient-bg p-4">
           <span className="text-muted">
             <ul>
-              <li>Home</li>
-              <li>Explore</li>
+              <li>
+              <Link to="/">Explore</Link>
+              </li>
+              <li>
+              <Link to="/dashboard">Dashboard</Link>
+              </li>
               <li>Portfolio</li>
               <li>Whitepaper</li>
               <li>About us</li>

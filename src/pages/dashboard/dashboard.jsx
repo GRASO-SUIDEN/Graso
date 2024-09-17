@@ -1,4 +1,4 @@
-// src/Dashboard.jsx
+
 import React from 'react';
 import SideAdmin from "./sideadminpanel/side-admin-panel";
 import './dashboard.css';
