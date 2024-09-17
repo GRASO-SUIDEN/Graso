@@ -1,13 +1,17 @@
-import React from 'react';
-import { LandingPage } from './pages/LandingPage/LandingPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from './pages/LandingPage/LandingPage';
+import Dashboard from './pages/dashboard/dashboard';
 
 
 
 function App() {
   return (
-    <div>
-    <LandingPage/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
   );
 }
 

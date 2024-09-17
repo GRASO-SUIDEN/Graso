@@ -1,10 +1,14 @@
+// src/LandingPage.jsx
 import React from 'react';
-import Banner from '../../components/banner/banner';
+import Banner from '../../components/banner/banner'
 
-export const LandingPage = () => {
+function LandingPage() {
   return (
     <div>
       <Banner />
     </div>
   );
-};
+}
+
+export default LandingPage;
+

@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
 
 *{
@@ -6,11 +8,13 @@
   box-sizing: border-box;
   font-family: "Aoboshi One", system-ui;
 }
+html {
+  scroll-behavior: smooth;
+}
 #root{
   background-color: #bb9245;
   width: 100%;
   height: auto;
   min-height: 100vh;  
 }
-
 
