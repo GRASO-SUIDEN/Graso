@@ -166,7 +166,7 @@ button:active, .start-btn:active{
 .invest-btn, .develop-btn {
     width: 70%; 
     font-size: 1.3rem;
-    min-width: 40%;
+    min-width: 50%;
     margin: 0 10px;
     min-height: 8vh;
 }

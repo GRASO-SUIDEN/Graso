@@ -2,6 +2,9 @@
     width: 82%;
     height: 100vh;
     padding: 0px 0px 10px 0px;
+    transform: translatey(100%);
+    animation: rise 0.3s linear forwards;
+    transition: animation 0.5s ease-out;
 }
 .admin-header{
     width: 100%;
@@ -401,7 +404,16 @@ padding: 10px;
 .profile-pic{
     display: none;
 }
-
+@keyframes rise{
+    from{
+        transform: translateY(100%);
+        filter: blur(100px);
+    }
+    to {
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
 
 
 

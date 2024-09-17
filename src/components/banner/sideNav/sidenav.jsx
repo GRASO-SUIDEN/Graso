@@ -13,7 +13,7 @@ const SideNav = () => {
           <span className="text-muted">
             <ul>
               <li>
-              <Link to="/" className='nav-link'>Explore</Link>
+              <Link to="/" className='nav-link'>Home</Link>
               </li>
               <li>
               <Link to="/dashboard" className='nav-link'>Dashboard</Link>

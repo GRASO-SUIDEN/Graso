@@ -21,7 +21,7 @@ const Banner = () => {
           <p>Bringing a better and faster means for developers to raise funds,
             while giving individual investors fractional ownership of real world assets.</p>
             <div className='button-holder'>
-    <button className='invest-btn'>Invests</button>
+    <button className='invest-btn'>Invest</button>
     <button className='develop-btn'>Develop</button>
    </div>
         </div>
