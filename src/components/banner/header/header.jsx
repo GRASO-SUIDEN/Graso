@@ -10,10 +10,10 @@ const Header = () => {
           <div className="logo">GRASO</div>
           <ul>
             <li>
-              <Link to="/">Explore</Link>
+              <Link to="/" className='nav-link'>Explore</Link>
               </li>
             <li>
-              <Link to="/dashboard">Dashboard</Link>
+              <Link to="/dashboard" className='nav-link'>Dashboard</Link>
               </li>
             <li>Features</li>
             <li>Whitepaper</li>

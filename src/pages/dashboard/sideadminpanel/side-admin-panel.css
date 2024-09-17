@@ -4,7 +4,7 @@
     height: 100vh;
     display: flex;
     gap: 15px;
-    font-family: inter;
+    font-family: "Inter Tight", sans-serif;
     flex-direction: column;
     justify-content: space-between;
     font-weight: 400;

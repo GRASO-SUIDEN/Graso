@@ -1,5 +1,6 @@
 .header{
     width: 100%;
+    font-family: "Aoboshi One", serif;
 }
 
 .inner-nav {
@@ -29,24 +30,13 @@ nav ul{
 }
 nav ul li {
     margin: 0px 10px;
-    font-family: Aoboshi One;
     font-size: 16px;
     cursor: pointer;
     position: relative;
+    transition: 0.2s ease-in-out;
 }
-nav ul li::after{
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    background-color: #040119;
-    bottom: -5px; ;
-    left: 0;
-    transition: width 0.3s ease-in-out;
-    opacity: 50%
-}
-nav ul li:hover::after {
-    width: 100%;
+nav ul li:hover{
+    color: #FDD993;
 }
 .start-btn{
     background-color: #fff;
@@ -95,6 +85,12 @@ nav ul .start-btn:hover::after{
     padding: 0px 10px;
     z-index: 9999
 }
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+  
 
 
 

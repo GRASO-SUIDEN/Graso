@@ -1,7 +1,7 @@
 .admin-info{
     width: 82%;
     height: 100vh;
-    padding: 0px 0px 10px 0px ;
+    padding: 0px 0px 10px 0px;
 }
 .admin-header{
     width: 100%;
@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 .mobile-nav{
     display: none;
@@ -18,16 +19,17 @@
     min-height: 100vh;
     height: 100vh;
     overflow-y: scroll;
-    padding: 20px 30px;
+    padding: 20px 30px 50px 30px;
     color: #ffffff;
     flex-direction: column;
     display: flex;
     gap: 20px;
 }
 .admin-header h3{
-   font-size: 2.5rem;
+   font-size: 2.3rem;
    font-weight: 800;
    text-align: left;
+   font-family: "Inter Tight", sans-serif;
 }
 .dropdown .dropdown-toggle {
     border: none;  
@@ -60,11 +62,11 @@
     text-align: initial;
 }
 .name p{
-    font-family: Inter;
     font-size: 1.24rem;
     font-weight: 700;
     text-align: left;
     margin-bottom: 2px;
+    font-family: "Inter Tight", sans-serif;
 }
 .name small{
     font-size: 1.7vh;
@@ -136,29 +138,31 @@ padding: 10px;
 }
 .balances li {
     margin: 5px 15px;
+    font-family: "Inter Tight", sans-serif;
 }
 .stats .summary  li, .balances{
     list-style: none  !important;
 }
 .summary p, .balances p{
-    font-family: Inter;
     font-size: 1.375rem;
     font-weight: 500;
     text-align: left;
     margin-bottom: 0px;
+    font-family: "Inter Tight", sans-serif;
 }
 .summary small, .balances small{
     margin-top: 0px;
-    font-family: Inter;
     font-size: 0.75rem;
     font-weight: 400;
     text-align: left;
+    font-family: "Inter Tight", sans-serif;
 }
 
 .btn-group .btn {
     background-color: #737373 ;
     border-color: #e8e8e8; 
     padding: 5px 15px;    
+    font-family: "Inter Tight", sans-serif;
   }
   
   .btn-group .btn:hover {
@@ -202,9 +206,9 @@ padding: 10px;
     font-size: 1rem;
     font-weight: 900;
     text-align: left;
+    font-family: "Inter Tight", sans-serif;
 }
 .quick-access ul li{
-    font-family: Inter;
     font-size: 1.0625rem;
     font-weight: 400;
     width: 137px;
@@ -217,7 +221,8 @@ padding: 10px;
     cursor: pointer;
     position: relative;
     margin: 10px 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-family: "Inter Tight", sans-serif;   
 }
 .quick-access ul li::before{
     content: "";
@@ -267,6 +272,7 @@ padding: 10px;
 .portfolio ul h2{
     color: #474646;
     text-shadow: none;
+    font-family: "Inter Tight", sans-serif;
 }
 .portfolio ul li{
     text-shadow: none;
@@ -284,6 +290,7 @@ padding: 10px;
     font-weight: 500;
     color: #474646;
     opacity: 0px;
+    font-family: "Inter Tight", sans-serif;
     border: 1px solid #10B817;
 }
 .portfolio ul li p{
@@ -297,10 +304,9 @@ padding: 10px;
     width: 100%;;
     color:#474646;
     text-align: right;
-    font-family: Inter;
     font-size: 1rem;
     font-weight: 700;
-
+    font-family: "Inter Tight", sans-serif;
 }
 .card.values {
     display: flex;
@@ -342,6 +348,7 @@ padding: 10px;
     margin: 0; 
     font-size: 1.5rem;
     font-weight: 700;
+    font-family: "Inter Tight", sans-serif;
   }
   
   .card-title ul {
@@ -355,6 +362,7 @@ padding: 10px;
     margin-left: 1rem; 
     background: #B9924557;
     border-radius: 20px;
+    font-family: "Inter Tight", sans-serif;
     min-width: 50px;
     text-align: center;
     font-size: 12px;
@@ -362,11 +370,11 @@ padding: 10px;
     border: 0.5px solid #fff;
   }
   .card-text p{
-    font-family: Inter;
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 24.2px;
     text-align: left;
+    font-family: "Inter Tight", sans-serif;
   }
   .card-text small{
     color: #10B817;
@@ -383,11 +391,11 @@ padding: 10px;
     border: 0.5px solid #ffffff;
 }
 .recent_transactions h4{
-    font-family: inter;
     font-size: 1.5rem;
     font-weight: 700;
     text-align: left;
    color: #474646;
+   font-family: "Inter Tight", sans-serif;
 }
 .profile-pic{
     display: none;
@@ -408,7 +416,7 @@ padding: 10px;
         padding: 40px 0px 20px 0px;
     }
     .main-info{
-        padding: 50px 15px;
+        padding: 50px 15px 100px 15px;
         gap: 20px;
     }
     .name-card{
