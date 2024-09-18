@@ -27,7 +27,7 @@ const SideNav = () => {
             {" "}
             <h1 className="nav-logo">Gravos</h1>
             <button
-              className="navbar-toggler custom-toggler;"
+              className="navbar-toggler custom-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarToggleExternalContent"

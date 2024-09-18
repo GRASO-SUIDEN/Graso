@@ -5,14 +5,25 @@ import image3 from "../assets/Sponge 1.png";
 import image4 from "../assets/Sponge 2.png";
 import image5 from "../assets/Sponge 3.png";
 import Footer from "./footer/footer";
-import SideNav from "./sideNav/sidenav";
+import MobileNav from "../MobileNav";
+import { NavLink } from "react-router-dom";
 
 const Banner = () => {
   return (
     <div className="outer-banner">
       <div className="banner">
         <Header />
-        <SideNav />
+        <MobileNav>
+          <li>
+            <NavLink to="/explore">Explore</NavLink>
+          </li>
+          <li>
+            <NavLink to="/dashboard">Dashboard</NavLink>
+          </li>
+          <li>Portfolio</li>
+          <li>Whitepaper</li>
+          <li>About us</li>
+        </MobileNav>
         <div className="main-content">
           <div className="text">
             <h1>Making Real Estate More Accessible to All</h1>

@@ -110,7 +110,7 @@ nav ul .start-btn:hover::after {
   color: #fdd993;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 902px) {
   .header {
     display: none;
   }
