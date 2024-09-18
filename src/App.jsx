@@ -3,6 +3,7 @@ import LandingPage from './pages/LandingPage/LandingPage';
 import Dashboard from './pages/dashboard/dashboard';
 import About from './pages/about/about';
 
+import Launch from './pages/Launch/launch';
 
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
+
         <Route path="/about" element= {<About />} />
+        <Route path="/launch" element={<Launch />} />
       </Routes>
     </Router>
   );

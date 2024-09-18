@@ -1,0 +1,104 @@
+.launch-page{
+    width: 100%;
+    height: auto;
+    background: #B99245 url("https://github.com/chiscookeke11/My_Portfolio/blob/main/assets/%E2%80%94Pngtree%E2%80%94mint%20green%20waves%20and%20swirls_17189338%201.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.launch-banner{
+    width: 100%;
+    height: 100vh;
+    background: #B99245; 
+    opacity: 78%;  
+    transform: translatey(100%);
+    animation: rise 0.3s linear forwards;
+    transition: animation 0.3s ease-out;
+    padding: 60px 15px;
+}
+.banner-text{
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Aoboshi One", serif;
+    gap: 10px;
+    color: #ffffff;
+}
+.launch-page footer{
+    opacity: 1;
+}
+.banner-text h1{
+    font-size: 4rem;
+    margin-top: 5%;
+    font-weight: 400;
+    text-align: center;
+    width: 75%;
+    color: #D9D9D9;
+}
+.banner-text p{
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
+   width: 78%;
+}
+.banner-text button{
+   font-size: 18px;
+   font-weight: 400;
+   text-align: center;
+   color: #D9D9D9;
+   background-color: #73737399;
+   border: 1px solid #FDD993;
+   border-radius: 25px;
+   padding: 10px 20px;
+   position: relative;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   transition: 0.3s ease-in-out;
+}
+.banner-text ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    list-style: none;
+    font-size: 2.1rem;
+    margin-top: 4%;
+}
+.banner-text ul li small{
+    color: #D9D9D9;
+    font-size: 1.3rem;
+}
+.banner-text-btn::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    background-color:  #C97A2C;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+}
+.banner-text-btn:hover::before{
+    width: 100%;
+}
+.banner-text-btn span{
+    z-index: 999;
+}
+
+
+@media  (max-width: 760px){
+.launch-banner{
+    height: 100%;
+}
+}
+    
