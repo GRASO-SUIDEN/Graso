@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export const MobilePanel = () => {
   return (
@@ -23,7 +24,7 @@ export const MobilePanel = () => {
         </div>
       </div>
       <nav className="navbar navbar-light gradient-bg p-3">
-        <div className="container-fluid"> <h1 className='nav-logo'>Gravos</h1>
+        <div className="container-fluid"> <h1 className='nav-logo'><Link to="/" className='nav-link'>Gravos</Link></h1>
           <button
             className="navbar-toggler custom-toggler;"
             type="button"
