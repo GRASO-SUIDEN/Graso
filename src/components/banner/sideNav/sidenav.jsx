@@ -5,29 +5,35 @@ import { Link } from "react-router-dom";
 
 const SideNav = () => {
   return (
-    <div className="mobile-nav">
-      <div className="collapse" id="navbarToggleExternalContent">
-        <div className="gradient-bg p-4">
-          <span className="text-muted">
-            <ul>
-              <li>
-                <Link to="/">Explore</Link>
-              </li>
-              <li>
-                <Link to="/dashboard">Dashboard</Link>
-              </li>
-              <li>Portfolio</li>
-              <li>Whitepaper</li>
-              <li>About us</li>
-            </ul>
-          </span>
+    <>
+      <div className="mobile-nav">
+        <div className="collapse" id="navbarToggleExternalContent">
+          <div className="gradient-bg p-4">
+            <span className="text-muted">
+              <ul>
+                <li>
+                  <Link to="/" className="nav-link">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/dashboard" className="nav-link">
+                    Dashboard
+                  </Link>
+                </li>
+                <li>Portfolio</li>
+                <li>Whitepaper</li>
+                <li>About us</li>
+              </ul>
+            </span>
+          </div>
         </div>
         <nav className="navbar navbar-light gradient-bg p-3">
           <div className="container-fluid">
             {" "}
             <h1 className="nav-logo">Gravos</h1>
             <button
-              className="navbar-toggler custom-toggler"
+              className="navbar-toggler custom-toggler;"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarToggleExternalContent"
@@ -40,7 +46,7 @@ const SideNav = () => {
           </div>
         </nav>
       </div>
-    </div>
+    </>
   );
 };
 

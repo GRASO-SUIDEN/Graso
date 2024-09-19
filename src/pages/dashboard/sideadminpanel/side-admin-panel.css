@@ -4,12 +4,14 @@
   height: 100vh;
   display: flex;
   gap: 15px;
-  font-family: inter;
   flex-direction: column;
   justify-content: space-between;
   font-weight: 400;
   background: linear-gradient(to right, #99783a, rgba(217, 217, 217, 0.29));
   border-right: 1px solid #e8e8e8;
+  transform: translatey(100%);
+  animation: rise 0.3s linear forwards;
+  transition: animation 0.5s ease-out;
 }
 .side-admin-container .center ul {
   list-style: none;
@@ -34,6 +36,7 @@
   display: flex;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
+  font-weight: 500;
 }
 .side-admin-container ul li:hover {
   background-color: #e8e8e8;
@@ -49,6 +52,16 @@
 .side-admin-container .bottom h3 {
   font-size: 2.8vh;
   cursor: pointer;
+}
+@keyframes rise {
+  from {
+    transform: translateY(100%);
+    filter: blur(100px);
+  }
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+  }
 }
 
 @media (max-width: 760px) {

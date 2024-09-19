@@ -2,6 +2,9 @@
   width: 82%;
   height: 100vh;
   padding: 0px 0px 10px 0px;
+  transform: translatey(100%);
+  animation: rise 0.3s linear forwards;
+  transition: animation 0.5s ease-out;
 }
 .admin-header {
   width: 100%;
@@ -9,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 10px;
 }
 .mobile-nav {
   display: none;
@@ -18,16 +22,17 @@
   min-height: 100vh;
   height: 100vh;
   overflow-y: scroll;
-  padding: 20px 30px;
+  padding: 20px 30px 50px 30px;
   color: #ffffff;
   flex-direction: column;
   display: flex;
   gap: 20px;
 }
 .admin-header h3 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 800;
   text-align: left;
+  font-family: "Inter Tight", sans-serif;
 }
 .dropdown .dropdown-toggle {
   border: none;
@@ -47,9 +52,9 @@
   background: linear-gradient(to right, #99783a, rgba(217, 217, 217, 0.29));
   align-items: center;
   text-align: center;
-  padding: 13px 30px;
+  padding: 13px 15px;
   border-radius: 5px;
-  border: 1px solid #ffffff !important;
+  border: 1px solid #ffffff;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 0 15px;
@@ -60,14 +65,14 @@
   text-align: initial;
 }
 .name p {
-  font-family: Inter;
   font-size: 1.24rem;
   font-weight: 700;
   text-align: left;
   margin-bottom: 2px;
+  font-family: "Inter Tight", sans-serif;
 }
 .name small {
-  font-size: 1.7vh;
+  font-size: 2.7vh;
   font-weight: 300;
   text-align: left;
   margin-top: 0;
@@ -139,7 +144,8 @@
   flex-wrap: wrap;
 }
 .balances li {
-  margin: 5px 15px;
+  margin: 5px 13px;
+  font-family: "Inter Tight", sans-serif;
 }
 .stats .summary li,
 .balances {
@@ -147,25 +153,27 @@
 }
 .summary p,
 .balances p {
-  font-family: Inter;
-  font-size: 1.375rem;
+  font-size: 1.15rem;
   font-weight: 500;
   text-align: left;
   margin-bottom: 0px;
+  font-family: "Inter Tight", sans-serif;
 }
 .summary small,
 .balances small {
   margin-top: 0px;
-  font-family: Inter;
   font-size: 0.75rem;
   font-weight: 400;
   text-align: left;
+  font-family: "Inter Tight", sans-serif;
 }
 
 .btn-group .btn {
   background-color: #737373;
   border-color: #e8e8e8;
-  padding: 5px 15px;
+  padding: 10px 20px;
+  font-family: "Inter Tight", sans-serif;
+  border-radius: 15px;
 }
 
 .btn-group .btn:hover {
@@ -173,8 +181,8 @@
 }
 .btn-group .dropdown-menu {
   background-color: #99783a;
-  font-size: 0.625rem;
-  padding: 5px 13px;
+  font-size: 0.8rem;
+  padding: 6px 15px;
 }
 .hidebalance {
   align-self: center;
@@ -212,9 +220,9 @@
   font-size: 1rem;
   font-weight: 900;
   text-align: left;
+  font-family: "Inter Tight", sans-serif;
 }
 .quick-access ul li {
-  font-family: Inter;
   font-size: 1.0625rem;
   font-weight: 400;
   width: 137px;
@@ -228,6 +236,7 @@
   position: relative;
   margin: 10px 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Inter Tight", sans-serif;
 }
 .quick-access ul li::before {
   content: "";
@@ -280,6 +289,7 @@
 .portfolio ul h2 {
   color: #474646;
   text-shadow: none;
+  font-family: "Inter Tight", sans-serif;
 }
 .portfolio ul li {
   text-shadow: none;
@@ -301,6 +311,7 @@
   font-weight: 500;
   color: #474646;
   opacity: 0px;
+  font-family: "Inter Tight", sans-serif;
   border: 1px solid #10b817;
 }
 .portfolio ul li p {
@@ -314,9 +325,9 @@
   width: 100%;
   color: #474646;
   text-align: right;
-  font-family: Inter;
   font-size: 1rem;
   font-weight: 700;
+  font-family: "Inter Tight", sans-serif;
 }
 .card.values {
   display: flex;
@@ -362,6 +373,7 @@
   margin: 0;
   font-size: 1.5rem;
   font-weight: 700;
+  font-family: "Inter Tight", sans-serif;
 }
 
 .card-title ul {
@@ -375,21 +387,23 @@
   margin-left: 1rem;
   background: #b9924557;
   border-radius: 20px;
+  font-family: "Inter Tight", sans-serif;
   min-width: 50px;
   text-align: center;
   font-size: 12px;
   padding: 4px 10px;
   border: 0.5px solid #fff;
 }
-.card-text p {
-  font-family: Inter;
-  font-size: 1.25rem;
+.card-text {
+  font-size: 1rem;
   font-weight: 500;
   line-height: 24.2px;
   text-align: left;
+  font-family: "Inter Tight", sans-serif;
 }
 .card-text small {
   color: #10b817;
+  margin: 0px 10px;
 }
 .recent_transactions {
   width: 100%;
@@ -399,21 +413,31 @@
     rgba(253, 217, 147, 0.58) 34.64%,
     rgba(254, 237, 204, 0.58) 96.13%
   );
-  min-height: 40.11vh;
+  min-height: 30vh;
   border-radius: 10px;
   border: 1px;
   opacity: 0px;
   border: 0.5px solid #ffffff;
 }
 .recent_transactions h4 {
-  font-family: inter;
   font-size: 1.5rem;
   font-weight: 700;
   text-align: left;
   color: #474646;
+  font-family: "Inter Tight", sans-serif;
 }
 .profile-pic {
   display: none;
+}
+@keyframes rise {
+  from {
+    transform: translateY(100%);
+    filter: blur(100px);
+  }
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+  }
 }
 
 @media (max-width: 760px) {
@@ -425,7 +449,7 @@
     padding: 40px 0px 20px 0px;
   }
   .main-info {
-    padding: 50px 15px;
+    padding: 50px 15px 100px 15px;
     gap: 20px;
   }
   .name-card {
@@ -455,5 +479,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .admin-info {
     width: 70%;
+  }
+  .admin-header h3 {
+    font-size: 2rem;
   }
 }

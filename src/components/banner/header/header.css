@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  font-family: "Aoboshi One", serif;
 }
 
 .inner-nav {
@@ -51,6 +52,14 @@ nav ul li::after {
 }
 nav ul li:hover::after {
   width: 100%;
+  margin: 0px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+nav ul li:hover {
+  color: #fdd993;
 }
 .start-btn {
   background-color: #fff;
@@ -103,6 +112,10 @@ nav ul .start-btn:hover::after {
   position: fixed;
   padding: 0px 10px;
   z-index: 9999;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
 }
 
 .inner-nav a.active {

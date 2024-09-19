@@ -41,8 +41,8 @@ const AdminInfo = () => {
               <div className="image">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="35"
-                  height="32"
+                  width="25"
+                  height="25"
                   fill="currentColor"
                   className="bi bi-person"
                   viewBox="0 0 16 16"
