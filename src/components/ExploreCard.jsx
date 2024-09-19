@@ -5,7 +5,7 @@ import LocationIcon from "./assets/locationIcon.png";
 export default function ExploreCard() {
   return (
     <>
-      <div className="relative bg-gradient-to-r from-[#acabab6b] to-[#ebc67e] h-[30rem] w-[20rem]  pt-2 rounded-xl border-1 border-white">
+      <div className="relative bg-gradient-to-r from-[#acabab6b] to-[#ebc67e] h-[30rem] w-[20rem]  pt-2 rounded-xl border-1 border-white mt-5 max-md:mt-0">
         <Head />
         <Body />
       </div>
@@ -85,20 +85,23 @@ function Body() {
         </p>
       </div>
       <div className="flex items-center space-x-3 mt-2">
-        <div className="flex flex-col items-center -space-y-3">
+        <div className="flex flex-col items-center">
           <p className="text-[#471B1A] text-[0.75rem]">Min Entry</p>
           <p className="text-white">5 USDT</p>
         </div>
         <div className="bg-white h-[2rem] w-[0.1rem]"></div>
-        <div className="flex flex-col -space-y-3">
+        <div className="flex flex-col">
           <p className="text-[#471B1A] text-[0.75rem]">Max Entry</p>
           <p className="text-white">10,000 USDT</p>
         </div>
       </div>
-      <button className="absolute bottom-0 text-white bg-gradient-to-r from-[#D9D9D96B] to-[#7373736B] w-[19.9rem] h-[3rem] mt-[1rem] -ml-[1rem] rounded-[0_0_0.75rem_0.75rem] border-t border-white">
+      <p
+        role="button"
+        className="absolute bottom-0 text-white bg-gradient-to-r from-[#D9D9D96B] to-[#7373736B] w-[20rem] h-[3rem] mt-[1rem] -ml-[1rem] rounded-[0_0_0.75rem_0.75rem] border-t border-white text-center pt-3"
+      >
         INVEST
-      </button>
-      <div className="absolute -bottom-[2.6rem] flex justify-center text-center ml-5 space-x-3 bg-[#24C2A5] w-[15rem] text-white rounded-[0_0_0.75rem_0.75rem]">
+      </p>
+      <div className="absolute -bottom-[1.57rem] flex justify-center text-center ml-5 space-x-3 bg-[#24C2A5] w-[15rem] text-white rounded-[0_0_0.75rem_0.75rem]">
         <p>Ends in</p>
         <p>60D 7H 35M 59S</p>
       </div>

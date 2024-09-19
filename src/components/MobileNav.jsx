@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function MobileNav({ children, height }) {
+function MobileNav({ children, height = "" }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -46,7 +46,7 @@ function MobileNav({ children, height }) {
       </div>
 
       <div
-        className={`fixed top-0 left-0 w-full h-[50vh] max-sm:h-[${height}] bg-gradient-to-r from-[#acabab6b] to-[#99783a] transform transition-transform duration-300 -z-[5] ${
+        className={`fixed top-0 left-0 w-full h-[50vh] max-sm:h-[${height}] bg-gradient-to-r from-[#acabab6b,20%] to-[#99783a]  transform transition-transform duration-300 -z-[5] ${
           isOpen ? "translate-y-0 opacity-100" : "-translate-y-full"
         }`}
       >
