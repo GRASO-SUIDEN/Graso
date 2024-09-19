@@ -3,7 +3,7 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 import Explore from "./pages/explore/Explore";
 import Dashboard from "./pages/dashboard/dashboard";
-import About from "./pages/about/about";
+import About from "./pages/about/About";
 import Launch from "./pages/Launch/launch";
 
 function App() {
